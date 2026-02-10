@@ -1,0 +1,4 @@
+// 12S24051 - Geralda Natali Gultom
+jadi aku ada matkul pemrograman berorientasi objek memakai java language, berikut perintah soalnya
+berikan aku codes yang relevan dan terarah sesuai agar sesuai dengan output yang diminta
+mengapa error
