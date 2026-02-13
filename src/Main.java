@@ -20,11 +20,18 @@ public class Main {
 
         // Soal 2
         } else if (soal.equals("Soal2")) {
-            double x = input.nextDouble();
-            double y = input.nextDouble();
 
-            float sumFloat = (float) x + (float) y;
-            double sumDouble = x + y;
+            String xs = input.next();
+            String ys = input.next();
+
+            float xf = Float.parseFloat(xs);
+            float yf = Float.parseFloat(ys);
+
+            double xd = Double.parseDouble(xs);
+            double yd = Double.parseDouble(ys);
+
+            float sumFloat = xf + yf;
+            double sumDouble = xd + yd;
 
             double diff = Math.abs(sumDouble - sumFloat);
 
@@ -56,6 +63,7 @@ public class Main {
 
         // Soal 5
         } else if (soal.equals("Soal5")) {
+
             String intStr = input.next();
             String doubleStr = input.next();
             String boolStr = input.next();
